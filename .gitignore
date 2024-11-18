@@ -39,3 +39,6 @@ banlist.xml
 
 # Personal
 .vscode
+mods/deathmatch/libcrypto-3.dll
+mods/deathmatch/libssl-3.dll
+mods/deathmatch/mta_mysql.dll
