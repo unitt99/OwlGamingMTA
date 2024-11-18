@@ -518,6 +518,9 @@ function spawnCharacter(characterID, remoteAccountID, theAdmin, targetAccountNam
         if freshSpawn then
             triggerEvent( "social:look", client, client, ":edit" )
         end
+
+        -- update discord
+        triggerClientEvent(client, "discord:updateRPC", client)
     end
 end
 addEventHandler("accounts:characters:spawn", getRootElement(), spawnCharacter)

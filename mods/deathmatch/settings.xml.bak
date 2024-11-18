@@ -24,6 +24,9 @@
 	<!-- Imgur Client ID used to get dimensions of skins and item-texture stuff -->
 	<setting name="imgurClient" value="IMGUR_API_KEY" />
 
+	<!-- Discord Application ID for integration -->
+	<setting name="@discord.application_id" value="DISCORD_APP_KEY"/>
+
 	<!-- Scanner -->
 	<setting name="@payday.inactivityscanner_vehicles" value="1" />
 	<setting name="@payday.inactivityscanner_interiors" value="1" />
