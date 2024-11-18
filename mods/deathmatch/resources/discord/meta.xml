@@ -1,5 +1,5 @@
 <meta>
-    <info author="Unitts - OwlGaming" type="script"/>
+    <info author="OwlGaming" type="script"/>
 
     <script type="client" src="c_discord.lua" cache="false"/>
     <script type="server" src="s_discord.lua"/>
